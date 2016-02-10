@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<executable>
+  <category>vtkSurfaces</category>
+  <title>ExtractLabelSurfaces</title>
+  <version>1.0</version>
+
+  <description>ExtractLabelSurfaces is a tool which extracted labels surfaces from a surface containing labels</description>
+  <version>1.0</version>
+  <contributor>Danaele Puechmaille, Francois Budin, Martin Styner</contributor> 
+  <acknowledgements><![CDATA[This work is part of the National Alliance for Medical Image Computing (NAMIC), funded by the National Institutes of Health through the NIH Roadmap for Medical Research, Grants U01 MH070890 - U54 HD079124 - R01 MH091351.]]></acknowledgements> 
+
+  <parameters>
+	  <label>IO</label>
+	  <description>Input/Output parameters</description>  
+	  
+	  
+	  <string>
+	    <name>mesh</name>
+		  <label>mesh</label>
+		  <flag>m</flag>
+		  <longflag>mesh</longflag>
+		  <description>Mesh input</description>
+		</string> 
+  
+
+
+  </parameters>
+
+</executable>
